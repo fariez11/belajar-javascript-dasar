@@ -27,4 +27,12 @@ while(nilaiAwal <= 5){
     nilaiAwal++ ;
 }
 
+// latihan ------------------------------------------
+
+var angkot = 1;
+
+while(angkot <=10){
+    console.log('Angkot No. ' + angkot + ' beroprasi dengan baik.');
+    angkot++ ;
+}
 
