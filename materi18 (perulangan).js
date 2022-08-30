@@ -28,11 +28,22 @@ while(nilaiAwal <= 5){
 }
 
 // latihan ------------------------------------------
-
 var angkot = 1;
 
 while(angkot <=10){
     console.log('Angkot No. ' + angkot + ' beroprasi dengan baik.');
-    angkot++ ;
+angkot++ ;
 }
+
+// perbaikan ----------------------------------------
+var jmlAngkot = 10;
+var noAngkot = 1;
+
+while(noAngkot <= jmlAngkot){
+    console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik');
+noAngkot++;
+}
+
+// table penelurusuran / trace table / dry-run test --------------
+// berisi gambar tabel untuk menjelaskan soal sebelumnya...
 
