@@ -46,4 +46,3 @@ noAngkot++;
 
 // table penelurusuran / trace table / dry-run test --------------
 // berisi gambar tabel untuk menjelaskan soal sebelumnya... 
-
