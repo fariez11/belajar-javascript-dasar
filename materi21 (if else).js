@@ -51,9 +51,9 @@
 for(var angkot = 1 ; angkot <= 10; angkot++ ){
     if(angkot <= 6){
         console.log('Angkot No. ' + angkot + ' beroperasi dengan baik.');
-    }else if(angkot == 8){
-        console.log('Angkot No. ' + angkot + ' sedang lembur');
+    }else if(angkot === 8 || angkot === 10){
+        console.log('Angkot No. ' + angkot + ' sedang lembur.');
     }else{
-        console.log('Angkot No. ' + angkot + ' sedang tidak beroperasi');
+        console.log('Angkot No. ' + angkot + ' sedang tidak beroperasi.');
     }
 }
