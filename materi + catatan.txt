@@ -4,7 +4,7 @@ html dan css adalah bukan bahasa pemrograman
 
 MATERI 2 ---------------------------------------------------------------------------------------------------
 - program adalah kumpulan / serangkaian instruksi atau
-- program adalah urutan instruksi terstruktur yang dirancang agar komputer dapat berperilaku
+- program adalah urutan instruksi terstruktur yang dirancang  agar komputer dapat berperilaku
    sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan.
 - pemrograman adalah cara kita untuk memberikan instruksi yang simpel dan terstruktur pada komputer.
 
@@ -61,14 +61,36 @@ MATERI 4 -----------------------------------------------------------------------
 
 MATERI 5 ----------------------------------------------------------------------------------------------------
 
-   wikipedia : "Javascript is a high-level, scripting, untype, and interpreted prgramming language"
+   wikipedia                  : "Javascript is a high-level, scripting, untype, and interpreted prgramming language"
+   mpjme - funfunfunction     : "easy to learn, hard to master"
+
+   Javascript bisa apa ?
+      Client-side Web development   : - Native Javascript / Vanilla Javascript
+         (front-end development)      - JQuery
+                                      - AngularJS, React, Ember, Backbone
+                                      - dll.
+      Server-side Development       : - NodeJS
+         (back-end development)       - ExpressJS
+      Browser Extension / Add-on
+      Dekstop Application           : - JQuery Mobile, Cordova / PhoneGap
+      IoT & Robotic                 : - CyclonJS, Jhonny-Five
+      JSON
+
+MATERI 6 -----------------------------------------------------------------------------------------------------
+   sejarah Javascript
+
+MATERI 7 -----------------------------------------------------------------------------------------------------
+
+*catatan
+console : Ctrl + Alt + J
+<script> di taruh di sebelum </body>
+
+MATERI 8 -----------------------------------------------------------------------------------------------------
 
 
 
 
-
-
-MATERI 24 ---------------------------------------------------------------------------------------------------
+MATERI 24 ----------------------------------------------------------------------------------------------------
 *catatan
 ==  -> operator perbandingan
 === -> operator identitas
