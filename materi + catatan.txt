@@ -1,17 +1,17 @@
-MATERI 1 ---------------------------------------------------------------------------------------------------
+MATERI 1 ---------------------------------------------------------------------------------------------------------------------------------
 *catatan
-html dan css adalah bukan bahasa pemrograman
+   html dan css adalah bukan bahasa pemrograman
 
-MATERI 2 ---------------------------------------------------------------------------------------------------
-- program adalah kumpulan / serangkaian instruksi atau
-- program adalah urutan instruksi terstruktur yang dirancang  agar komputer dapat berperilaku
-   sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan.
-- pemrograman adalah cara kita untuk memberikan instruksi yang simpel dan terstruktur pada komputer.
+MATERI 2 ---------------------------------------------------------------------------------------------------------------------------------
+   - program adalah kumpulan / serangkaian instruksi atau
+   - program adalah urutan instruksi terstruktur yang dirancang  agar komputer dapat berperilaku
+      sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan.
+   - pemrograman adalah cara kita untuk memberikan instruksi yang simpel dan terstruktur pada komputer.
 
-MATERI 3 ---------------------------------------------------------------------------------------------------
+MATERI 3 ---------------------------------------------------------------------------------------------------------------------------------
 
-MATERI 4 ---------------------------------------------------------------------------------------------------
-- compiler 
+MATERI 4 ---------------------------------------------------------------------------------------------------------------------------------
+   - compiler 
    ex: - com A akan membuat program dan program tersebut akan diberikan kepada com B
        - com A akan membuat SC dan mencompile yang menghasilkan sebuah file baru 
          dan file baru tersebut akan di berikan kepada com B 
@@ -26,7 +26,7 @@ MATERI 4 -----------------------------------------------------------------------
 
    bahasa yang menggunakan : C, C++, Objective-C
    
-- interpreter
+   - interpreter
    ex: - com A membuat SC dan SC tsb akan di berikan kepada com B dan com B akan menggunakan interpreter
          untuk menerjemahkan program com A lalu com B menjalankan interpreternya sekaligus menjalankan programnya
 
@@ -36,7 +36,7 @@ MATERI 4 -----------------------------------------------------------------------
 
    bahasa yang menggunakan : Javascript, PHP
 
-- Hybrid (intermediate language)
+   - Hybrid (intermediate language)
    yaitu menggabungkan kelebihannya compiler dan interpreter
    ex: > saat com A membuat SC dia melakukan compile tetapi setelah membuat compile tidak menghasilkan file excutable
          melainkan menghasilkan file intermediate language/byte code(sudah cukup teroptimasi untuk bahasa mesin dan 
@@ -59,7 +59,7 @@ MATERI 4 -----------------------------------------------------------------------
             - https://codepolitan.com/blog/bahasa-pemrograman-apa-cocok-dipelajari-pertama-kali
 
 
-MATERI 5 ----------------------------------------------------------------------------------------------------
+MATERI 5 ----------------------------------------------------------------------------------------------------------------------------------
 
    wikipedia                  : "Javascript is a high-level, scripting, untype, and interpreted prgramming language"
    mpjme - funfunfunction     : "easy to learn, hard to master"
@@ -76,21 +76,78 @@ MATERI 5 -----------------------------------------------------------------------
       IoT & Robotic                 : - CyclonJS, Jhonny-Five
       JSON
 
-MATERI 6 -----------------------------------------------------------------------------------------------------
+MATERI 6 ----------------------------------------------------------------------------------------------------------------------------------
    sejarah Javascript
 
-MATERI 7 -----------------------------------------------------------------------------------------------------
+MATERI 7 ----------------------------------------------------------------------------------------------------------------------------------
 
 *catatan
-console : Ctrl + Alt + J
-<script> di taruh di sebelum </body>
+   console : Ctrl + Alt + J
+   <script> di taruh di sebelum </body>
 
-MATERI 8 -----------------------------------------------------------------------------------------------------
+MATERI 8 ----------------------------------------------------------------------------------------------------------------------------------
+   "bit/ binery digit adalah satuan terkecil dari data yang ada di dalam komputer" 
+   bit hanya ada 0 & 1
+
+   tipe data : - number
+               - string 
+               - boolean 
+               - object
+               - function
+               - undefined
+
+MATERI 9 ----------------------------------------------------------------------------------------------------------------------------------
+   "numers in Javascript are double-precision floating point 64-bit format IEEE 754 values"
+   maksudnya : didalam Javascript bilangan integer atau bulat tetapi yang ada adalah floating point(bilangan pecahan)
+
+   angka spesial :   > Infinity           : 2/0 = Infinity 
+                     > -Infinity          : -2/0 = -Infinity
+                     > NaN (Not a Number) : 0/0 = NaN, 100/"apel" = NaN,
+
+*catatan
+   - jangan mengawali angka dengan 0 (karena akan dianggap sebagai angka oktal)
+   - jangan mengawali angka dengan 0x (karena akan dianggap sebagai bilngan hexadesimal)
+   - 100/"10" = 10 (karena javascript string tsb akan membaca juga sebagai angka)
+
+MATERI 10 ---------------------------------------------------------------------------------------------------------------------------------
+   "operator dalam javascript adalah sebuah simbol yang digunakan untuk melakukan operasi"
+   operator : > binary : membutuhkan 2 operand
+               ex: operand1 operator operand2  
+                  - aritmatika              : +,-,*,/,% (tetap menggunakan operator precedence/urutan operasi matematika(-KuKaBaTaKu-))
+                  - penugasan/assignment    : =, +=, -=, *=, /=, %= (yang mengoperasikan angka tanpa menghilangkan angka sebelumnya)  
+                  - perbandingan/comparison :   ~ ==  : sama dengan
+                                                ~ !=  : tidak sama dengan
+                                                ~ === : strict sama dengan (*operator identitas/membandingkan juga tipe datanya)
+                                                ~ !== : strict tidak sama dengan (*operator identitas/membandingkan juga tipe datanya)
+                                                ~ >   : lebih besar dari
+                                                ~ <   : lebih kecil dari
+                                                ~ >=  : lebih besar sama dengan
+                                                ~ <=  : lebih kecil sama dengan
+                        dan operator diatas menghasilkan boolean (true atau false)
+                  - logika/logical          : && (AND), || (OR), ! (NOT) 
+                                    ex: (10 % 2 == 0) && (x < 10), (10 % 2 == 0) || (x < 10), !(x , 20)
+                  - string                  : hanya + (jika '+' didalam string akan menjadi operator penggabung string)
+                                    ex: a + " " + b
+
+MATERI 11 ----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                *lanjutan dari materi diatas
+               > ternary : membutuhkan 3 operand
+               ex: ~~~
+                     - kondisional : (kondisi) ? benar : salah
+                           ex: (x % 2 == 0) ? "genap" : "ganjil" 
+
+              > unary : membutuhkan 1 operand
+               ex: operator operand atau operand operator
+                     - typeof  : untuk mengetahui tipe data apa dari nilai yang kita masukkan nanti kedalamnya
+                           caranya : typeof(operand)
+                           ex: typeof(10) -> number, typeof("10") -> string, typeof(true) -> boolean
+
+MATERI 12 ---------------------------------------------------------------------------------------------------------------------------------
+   
 
 
 
-
-MATERI 24 ----------------------------------------------------------------------------------------------------
+MATERI 24 --------------------------------------------------------------------------------------------------------------------------------
 *catatan
 ==  -> operator perbandingan
 === -> operator identitas
