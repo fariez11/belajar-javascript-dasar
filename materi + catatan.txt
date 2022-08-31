@@ -1,0 +1,75 @@
+MATERI 1 ---------------------------------------------------------------------------------------------------
+*catatan
+html dan css adalah bukan bahasa pemrograman
+
+MATERI 2 ---------------------------------------------------------------------------------------------------
+- program adalah kumpulan / serangkaian instruksi atau
+- program adalah urutan instruksi terstruktur yang dirancang agar komputer dapat berperilaku
+   sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan.
+- pemrograman adalah cara kita untuk memberikan instruksi yang simpel dan terstruktur pada komputer.
+
+MATERI 3 ---------------------------------------------------------------------------------------------------
+
+MATERI 4 ---------------------------------------------------------------------------------------------------
+- compiler 
+   ex: - com A akan membuat program dan program tersebut akan diberikan kepada com B
+       - com A akan membuat SC dan mencompile yang menghasilkan sebuah file baru 
+         dan file baru tersebut akan di berikan kepada com B 
+         dan hasil kompilasi tsb dinamakan (file excutable/program yang yang sudah bisa dieksekusi /file exe) 
+         dan nantinya setelah com B menjalankan programnya maka programnya akan bisa dilihat oleh com B 
+         *com B tidak perlu memiliki compiler lagi dan com B tidak akan pernah melihat SC yang doberikan oleh com A
+         (com B hanya menjalankan saja)
+
+   kelebihan : - siap untuk dijalankan                            kekurangan : - tidak lintas platform
+               - lebih cepat                                                   - tidak fleksibel
+               - sourcecode tidak terlihat                                     - langkah tambahan
+
+   bahasa yang menggunakan : C, C++, Objective-C
+   
+- interpreter
+   ex: - com A membuat SC dan SC tsb akan di berikan kepada com B dan com B akan menggunakan interpreter
+         untuk menerjemahkan program com A lalu com B menjalankan interpreternya sekaligus menjalankan programnya
+
+   kelebihan : - lintas platform                                  kekurangan : - butuh interpreter
+               - fleksibel                                                     - lebih lambat
+               - mudah untuk diuji                                             - sourcode mudah diakses
+
+   bahasa yang menggunakan : Javascript, PHP
+
+- Hybrid (intermediate language)
+   yaitu menggabungkan kelebihannya compiler dan interpreter
+   ex: > saat com A membuat SC dia melakukan compile tetapi setelah membuat compile tidak menghasilkan file excutable
+         melainkan menghasilkan file intermediate language/byte code(sudah cukup teroptimasi untuk bahasa mesin dan 
+         pada umumnya di close platform jadi bisa dijalankan di semua sistem operasi), 
+       > kemudian IL tadi diberikan kepada com B dan com B melakukan langkah terakhir sebelum menajalankan program 
+         dengan JIT(Just-In-Time) compilation (melakukan compile sambil menjalankan programnya sekaligus) 
+   
+   bahasa yang menggunakan : java, VB.NET, Python
+
+   mau bikin apa? 
+
+   web development               : PHP, C, Javascript, C++, JAVA, PYTHON, RUBY
+   game development              : C#, C, C++, JAVA, PYTHON, RUBY
+   mobile app development        : C#, C++, JAVA
+   data analys                   : R, PYTHON, MATLAB
+   embedded system programming   : C, C++, PYTHON 
+    
+   sumber : - https://www.udacity.com/blog/2015/05/pick-your-first-programming-language.html
+            - http://carlcheo.com/startcoding
+            - https://codepolitan.com/blog/bahasa-pemrograman-apa-cocok-dipelajari-pertama-kali
+
+
+MATERI 5 ----------------------------------------------------------------------------------------------------
+
+   wikipedia : "Javascript is a high-level, scripting, untype, and interpreted prgramming language"
+
+
+
+
+
+
+MATERI 24 ---------------------------------------------------------------------------------------------------
+*catatan
+==  -> operator perbandingan
+=== -> operator identitas
+var a = parseInt(promt('masukkan angka :')); --> sebuah proses untuk mengubah string menjadi integer
