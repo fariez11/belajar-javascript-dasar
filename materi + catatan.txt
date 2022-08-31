@@ -143,7 +143,28 @@ MATERI 11 ----------------------------------------------------------------------
                            ex: typeof(10) -> number, typeof("10") -> string, typeof(true) -> boolean
 
 MATERI 12 ---------------------------------------------------------------------------------------------------------------------------------
+   "tipe data String dalam javascript digunakan untuk merepresentasikan data tekstual(plain text)"
+
+   escape character :  \" atau \"
+      ex: 'dilaksanakan pada hari jum\'at ' (begitupun menggunakan ")
    
+   macam-macam : ~ \0    -> karakter NUll
+                 ~ \'    -> '
+                 ~ \"    -> "
+                 ~ \\    -> \
+                 ~ \n    -> new line / garis baru
+                 ~ \t    -> tab 
+                 ` \b    -> backspace
+                 \uXXXXX -> unicode
+                     sumber: https://en.wikipedia.org/wiki/List/of_Unicode_characters
+   
+   concatenation/konkatenasi : + (untuk penggabungan antar string)
+   .length : untuk menghitung panjang string
+      ex: "Sandhika Galih".length = 14 (spasi tetap terhitung)
+
+*catatan
+   - huruf besar dan kecil tetap berpengaruh dalam perbandingan string
+
 
 
 
