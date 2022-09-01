@@ -17,7 +17,7 @@ MATERI 4 -----------------------------------------------------------------------
          dan file baru tersebut akan di berikan kepada com B 
          dan hasil kompilasi tsb dinamakan (file excutable/program yang yang sudah bisa dieksekusi /file exe) 
          dan nantinya setelah com B menjalankan programnya maka programnya akan bisa dilihat oleh com B 
-         *com B tidak perlu memiliki compiler lagi dan com B tidak akan pernah melihat SC yang doberikan oleh com A
+         *com B tidak perlu memiliki compiler lagi dan com B tidak akan pernah melihat SC yang diberikan oleh com A
          (com B hanya menjalankan saja)
 
    kelebihan : - siap untuk dijalankan                            kekurangan : - tidak lintas platform
@@ -165,8 +165,49 @@ MATERI 12 ----------------------------------------------------------------------
 *catatan
    - huruf besar dan kecil tetap berpengaruh dalam perbandingan string
 
+MATERI 13 -------------------------------------------------------------------------------------------------------------------------------
+   "boolean adalah sebuah tipe data yang digunakan untuk merepresentasikan logika true dan false "
+   biasanya digunakan pada statement pngkondisian, untuk menentukan aksi yang berbeda dan mengatur akur kendali program
 
+   truthy : true, non-zero number (angka selain 0), "string", object, arrays, function
+   falsy  : false, 0, "", undefined, null, NaN
 
+MATERI 14 --------------------------------------------------------------------------------------------------------------------------------
+   "variable sebuah 'tempat/wadah' yang memiliki nama, yang digunakan untuk menyimpan nilai"
+
+   deklarasi   : mendaftarkan variable ke dalam lingkup yang sesuai 
+   inisialisasi: menyediakan memori untuk variable
+   assignment  : menetapkan nilai yang spesifik ke dalam variable 
+      
+      ex: var x;  //deklarasi & inisialisasi
+          x = 20; //assignment
+
+      deklarasi variable : - var
+                           - let
+                           - const 
+      
+      keyword & reserved word(kata yang tidak boleh digunakan sebagai nama variable) :
+         - break      - case      - catch      - class     - const     - continue
+         - debugger   - default   - delete     - do        - else      - enum
+         - export     - extends   - false      - finally   - for
+         - function   - if        - implement  - import    - in
+         - instanceof - interface - let        - new       - null
+         - package    - private   - protected  - public    - return    - try 
+         - static     - super     - switch     - this      - throw     - true 
+         - typeof     - var       - void       - while     - with      - yield
+
+      shorthand : untuk membuat variable bisa dengan tag var diawal saja
+         ex: var nama = "Sandhika",
+                 umur = 31;
+
+*catatan
+   - var gaboleh pake spasi;                                (X)
+   - var tidak boleh diawali dengan angka ex: var 1boleh;   (X) 
+   - var boleh1;                                            (V)
+   - var ini_juga_boleh;                                    (V)
+   - var boleh$;                                            (V)
+   - var $_$;                                               (V)
+   - var iniBolehBanget;  (Camel Case)                      (V)
 
 MATERI 24 --------------------------------------------------------------------------------------------------------------------------------
 *catatan
