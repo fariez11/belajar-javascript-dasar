@@ -182,9 +182,7 @@ MATERI 14 ----------------------------------------------------------------------
       ex: var x;  //deklarasi & inisialisasi
           x = 20; //assignment
 
-      deklarasi variable : - var
-                           - let
-                           - const 
+      deklarasi variable : - var       - let          - const 
       
       keyword & reserved word(kata yang tidak boleh digunakan sebagai nama variable) :
          - break      - case      - catch      - class     - const     - continue
@@ -208,6 +206,29 @@ MATERI 14 ----------------------------------------------------------------------
    - var boleh$;                                            (V)
    - var $_$;                                               (V)
    - var iniBolehBanget;  (Camel Case)                      (V)
+
+MATERI 15 --------------------------------------------------------------------------------------------------------------------------------
+   tag <script> </script> untuk menuliskan syntax javascript
+
+*catatan
+   - Javascript juga bisa ditaruh internal maupun external
+
+MATERI 16 --------------------------------------------------------------------------------------------------------------------------------
+   popup box : - alert
+               - prompt
+               - confirm
+
+MATERI 17 --------------------------------------------------------------------------------------------------------------------------------
+   Control FLow : - Normal Flow  : apabila program kita memiliki lebih dari satu statement, maka statement tersebut
+                                   akan dieksekusi dari atas ke bawah atau dari kiri ke kanan
+                  - Pengulangan  : ex: for , while, do while
+                     (loop/ iteration)  
+                  - Pengkondisian: if else(termasuk else if), switch
+                     (percabangan)
+
+MATERI 18 --------------------------------------------------------------------------------------------------------------------------------
+   
+
 
 MATERI 24 --------------------------------------------------------------------------------------------------------------------------------
 *catatan
