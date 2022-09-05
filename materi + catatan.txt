@@ -261,6 +261,7 @@ MATERI 22 ----------------------------------------------------------------------
 MATERI 23 --------------------------------------------------------------------------------------------------------------------------------
 MATERI 24 --------------------------------------------------------------------------------------------------------------------------------
 *catatan
-==  -> operator perbandingan
-=== -> operator identitas
-var a = parseInt(promt('masukkan angka :')); --> sebuah proses untuk mengubah string menjadi integer
+   - ==  -> operator perbandingan
+   - === -> operator identitas
+   - parseInt() --> sebuah proses untuk mengubah string menjadi integer
+   - case harus nilai, tidak bisa dimasukkan kondisi,hanya bisa nilai langsung saja
