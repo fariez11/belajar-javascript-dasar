@@ -1,5 +1,5 @@
-// // rumus if else ------------------------------------
-// if(kondisi){
+// membuat kondisi if else ------------------------------------------------
+// if(kondisi){                                                    // Rumus
 //     aksi -> (lakukan aksi jika kondisi bernilai true)
 // }
 // ... -> (keluar dari blok jika kondisi bernilai false)
