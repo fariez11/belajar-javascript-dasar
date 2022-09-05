@@ -265,3 +265,7 @@ MATERI 24 ----------------------------------------------------------------------
    - === -> operator identitas
    - parseInt() --> sebuah proses untuk mengubah string menjadi integer
    - case harus nilai, tidak bisa dimasukkan kondisi,hanya bisa nilai langsung saja
+
+MATERI 25 --------------------------------------------------------------------------------------------------------------------------------
+*catatan
+   - butuh mengulang dan belajar logic
