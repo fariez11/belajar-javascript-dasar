@@ -332,3 +332,16 @@ MATERI 30 ----------------------------------------------------------------------
                  - Testability (mudah untuk di test/ pengujian)
                  - Performance (penulisan kode agar meningkatkan performa program) 
                  - Maintainability (agar program kita dapat mudah di kelola dan dikembangkan)
+
+MATERI 31 -----------------------------------------------------------------------------------------------------------------------------
+   scope(lingkup variable) : bagaimana sebuah variable dapat diakses dalam program
+
+   macam2: - block scope   :
+                        ex : in js file.
+           - function scope: 
+                        ex : in js file.
+*catatan: 
+   - didalam function kita bisa mengakses variable global
+   - di luar kita tidak bisa mengakses variable lokal(yang ada didalam function)
+   - *jika anda ingin membuat variable didalam function tanpa var(dan diluar function juga belum dideskripsikan) maka
+      javascript akan otomatis membuat variable global yang ada di luar function 
