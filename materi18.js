@@ -1,4 +1,4 @@
-// control flow ------------------------------
+// control flow -------------------------------
 var angka = prompt('masukkan angka :');
 
 if(angka % 2 === 0){
