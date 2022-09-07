@@ -344,4 +344,4 @@ MATERI 31 ----------------------------------------------------------------------
    - didalam function kita bisa mengakses variable global
    - di luar kita tidak bisa mengakses variable lokal(yang ada didalam function)
    - *jika anda ingin membuat variable didalam function tanpa var(dan diluar function juga belum dideskripsikan) maka
-      javascript akan otomatis membuat variable global yang ada di luar function 
+      javascript akan otomatis membuat variable global yang ada di luar function (counternya : "use strict")
