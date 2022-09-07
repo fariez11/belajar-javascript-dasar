@@ -15,7 +15,7 @@
     // console.log(total);
 
 // menggunakan function ------------------------------------------
-    // function jumlahVolumeDuaKubus(a,b){
+    // function jumlahVolumeDuaKubus(a,b){          
     //     var volumeA, volumeB, total;
 
     //     volumeA = a * a * a;
@@ -27,7 +27,7 @@
     // }
 
     // alert(jumlahVolumeDuaKubus(8,3));
-    // alert(jumlahVolumeDuaKubus(10,12));
+    // alert(jumlahVolumeDuaKubus(10,12));              // refactoring* di bawah
 
 // parameter & argument --------------------------------------------
 
@@ -55,13 +55,20 @@
     // console.log(hasil);
 
 // contoh arguments -------------------------------------------------
-    function tambah(){
-        var hasil = 0;
-        for(var i = 0; i < arguments.length; i++){
-            hasil += arguments[i];
-        }
-        return hasil
+    // function tambah(){
+    //     var hasil = 0;
+    //     for(var i = 0; i < arguments.length; i++){
+    //         hasil += arguments[i];
+    //     }
+    //     return hasil
+    // }
+
+    // var coba = tambah(1,2,3,4);
+    // console.log(coba);
+
+// refactoring ------------------------------------------------------
+    function jumlahVolumeDuaKubus(a, b){
+        return a*a*a + b*b*b;    
     }
 
-    var coba = tambah(1,2,3,4);
-    console.log(coba);
+    alert(jumlahVolumeDuaKubus(8,3));

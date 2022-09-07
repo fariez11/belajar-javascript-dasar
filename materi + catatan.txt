@@ -324,3 +324,11 @@ MATERI 29 ----------------------------------------------------------------------
 *catatan 
    - jika parameter lebih sedikit dari argument, maka argument kelebihannya akan diabaikan.
    - jika parameter lebih banyak dari argument, maka parameter kelebihannya akan diisi dengan nilai undefined
+
+MATERI 30 -----------------------------------------------------------------------------------------------------------------------------
+   refactoring : sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya.
+      manfaat  : - readability (mudah dibaca)
+                 - DRY (Don't Repeat Yourself) (ex: efisiensi penggunaan function)
+                 - Testability (mudah untuk di test/ pengujian)
+                 - Performance (penulisan kode agar meningkatkan performa program) 
+                 - Maintainability (agar program kita dapat mudah di kelola dan dikembangkan)
