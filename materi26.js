@@ -39,7 +39,7 @@ while( terus ){
 
     alert('kamu memilih ' + player + ' dan komputer memilih ' + comp + '\nyang menghasilkan anda ' + hasil);
 
-    terus = confirm('masih mau main lagi?');
+    terus = confirm('apakah anda masih mau main lagi?');
 }
 
 alert('wahh kamu noob sekali ya, jadi males main sama kamu!!!');
