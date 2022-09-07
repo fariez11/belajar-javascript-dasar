@@ -1,10 +1,10 @@
-// pengulangan menggunakan for ------------------------
+// pengulangan menggunakan for -------------------------
 // for(var nilaiAwal = 1 ; nilaiAwal <= 10 ; nilaiAwal++ ){
 //     console.log('hello world  '+ nilaiAwal + 'x');
 
 // }
 
-// latihan soal ---------------------------------------
+// latihan soal ----------------------------------------
 
 var jmlAngkot = 10;
 var angkotBeroperasi = 6;
