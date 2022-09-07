@@ -35,7 +35,7 @@
 //         break;
 // }
 
-// contoh 2----------------------------------------------------
+// contoh soal 2----------------------------------------------------
 
 var item = prompt('masukkan nama makanan / minuman : \n (contoh: nasi, daging, susu, hamburger, sofdrink)');
 
