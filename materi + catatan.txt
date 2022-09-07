@@ -41,7 +41,7 @@ MATERI 4 -----------------------------------------------------------------------
    ex: > saat com A membuat SC dia melakukan compile tetapi setelah membuat compile tidak menghasilkan file excutable
          melainkan menghasilkan file intermediate language/byte code(sudah cukup teroptimasi untuk bahasa mesin dan 
          pada umumnya di close platform jadi bisa dijalankan di semua sistem operasi), 
-       > kemudian IL tadi diberikan kepada com B dan com B melakukan langkah terakhir sebelum menajalankan program 
+       > kemudian IL tadi diberikan kepada com B dan com B melakukan langkah terakhir sebelum menjalankan program 
          dengan JIT(Just-In-Time) compilation (melakukan compile sambil menjalankan programnya sekaligus) 
    
    bahasa yang menggunakan : java, VB.NET, Python
@@ -309,6 +309,8 @@ MATERI 27 ----------------------------------------------------------------------
 MATERI 28 -----------------------------------------------------------------------------------------------------------------------------
    'function yang baik adalah function yang mengerjakan 1 hal saja'
 
+   cara kerja : input -> function -> output
+
    function: - Blok kode yang dibuat untuk melakukan tugas spesifik
              - Dapat dipanggil berulang kali
              - Memudahkan penelusuran
@@ -345,3 +347,25 @@ MATERI 31 ----------------------------------------------------------------------
    - di luar kita tidak bisa mengakses variable lokal(yang ada didalam function)
    - *jika anda ingin membuat variable didalam function tanpa var(dan diluar function juga belum dideskripsikan) maka
       javascript akan otomatis membuat variable global yang ada di luar function (counternya : "use strict")
+
+MATERI 32 ------------------------------------------------------------------------------------------------------------------------------
+   Rekursif(rekursi/recursion) : sebuah fungsi yang memenaggil dirinya sendiri 
+                                 (yang harus berakhir dan menghasilkan nilai).
+   Base Case                   : kondisi akhir dari rekursif yang menghasilkan nilai.
+
+      cara kerja: ~> input 
+                  ~> function(setelah dijalankan ada baris kode yang mememanggil dirinya sendiri) -> dst -> dan suatu saat pemanggilannya berhenti
+                  ~> dan menghasilkan sebuah output/nilai
+      
+      implementasi: - menggantikan looping
+                    - fibonacci
+                    - pencarian dan penelusuran pada struktur data list dan tree 
+                    - bahasa pemrograman yang tidak memiliki pengulangan
+                        ex: Haskell, Erlang, Prolog, dll.
+                    - dll.
+
+*catatan :
+   - semua looping bisa dibuat rekursif, tapi tidak untuk sebaliknya
+   -* coba search recursion di google wkwk
+   
+   
