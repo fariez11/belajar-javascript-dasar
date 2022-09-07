@@ -305,3 +305,11 @@ MATERI 27 ----------------------------------------------------------------------
                                           ex: in js file
                                         - Dengan ekspresi / function expression
                                           ex: in js file
+
+MATERI 28 -----------------------------------------------------------------------------------------------------------------------------
+   'function yang baik adalah function yang mengerjakan 1 hal saja'
+
+   function: - Blok kode yang dibuat untuk melakukan tugas spesifik
+             - Dapat dipanggil berulang kali
+             - Memudahkan penelusuran
+             - Reusability
