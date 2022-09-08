@@ -1,4 +1,4 @@
-// array -----------------------------------------------------
+// array -------------------------------------------------------------------------------------------------
     var binatang = ['Kucing', 'Kelinci','Monyet','Panda','Koala','Sapi'];
     // atau
     var binatang = [];
@@ -15,3 +15,7 @@
     var myArr2 = ['teks',2,false,myFunc];
     var myArr3 = ['teks',2,false,myFunc, [3,4,5]];              // array multidimensi / array bersarang
         console.log(myArr3[4][1]);                              // untuk memanggil angka 4 yang di line 16
+    
+// manipulasi array --------------------------------------------------------------------------------------
+// 1. Menambah isi array
+    var arr = 

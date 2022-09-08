@@ -402,4 +402,6 @@ MATERI 34 ----------------------------------------------------------------------
 
 
 MATERI 35 ------------------------------------------------------------------------------------------------------------------------------
-   
+   manipulasi array : - menambah elemen pada array.
+                      - menghapus elemen pada array.
+                      - menampilkan seluruh isi array.
