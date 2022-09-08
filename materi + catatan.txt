@@ -367,5 +367,18 @@ MATERI 32 ----------------------------------------------------------------------
 *catatan :
    - semua looping bisa dibuat rekursif, tapi tidak untuk sebaliknya
    -* coba search recursion di google wkwk
-   
-   
+
+MATERI 32 ------------------------------------------------------------------------------------------------------------------------------
+   function decalaration : - function yang normal.
+                           - lebih fleksibel (dapat ditulis dimanapun) (bisa di panggil dulu baru dideklarasikan ataupun sebaliknya).
+                              - karena konsep Hoisting.
+                           - Mudah dipahami pemula.
+                           
+
+   function expression   : - fuctionnya boleh aja gak punya nama.
+                           - biasanya disimpan ke dalam sebuah variable.
+                           - Harus didefinisikan terlebih dahulu sebelum dipanggil.
+                           - lebih powerfull :
+                              - sebagai closure
+                              - sebagai argumen untuk function lain
+                              - IIFE (Immediately Invoked Function Expression)
