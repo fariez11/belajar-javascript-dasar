@@ -42,12 +42,22 @@
 // Method pada array ----------------------------------------------
 // 1.join
     var arr1  = ['Fariez', 'Ilham', 'Alvian'];
-    console.log(arr1.join(' - '));
+    // console.log(arr1.join(' - ') + '  ~> join');
 // 2.push & pop
     // arr1.push('Syach');                     // menambah 1 atau lebih di akhir
-    arr1.pop();                                // menghapus 1 per 1  di akhir
-    console.log(arr1.join(' - '));
+    // arr1.pop();                             // menghapus 1 per 1  di akhir
+    // console.log(arr1.join(' - ') + '  ~> pop');
 // 3.unshift & shift
-    arr.unshift('Fariez','Adnan');             // menambah 1 atau lebih di awal
-    arr1.shif();                               // menghapus 1 per 1  di awal  
-    console.log(arr.join(' - '));
+    // arr1.unshift('Fariez','Adnan');             // menambah 1 atau lebih di awal
+    // arr1.shift();                               // menghapus 1 per 1  di awal  
+    // console.log(arr1.join(' - ') + '  ~> unshift');
+// 4.splice 
+// splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2, ...)       // Rumus
+    arr1.splice(2,0, 'Sheren','Putri');
+    console.log(arr1.join(' - ') + '  ~> splice1');
+    arr1.splice(1,2, 'Sheren','Putri');
+    console.log(arr1.join(' - ') + '  ~> splice2');
+// 5.slice
+// slice(awal, akhir);                                                      // Rumus
+    var arr2 = arr1.slice(1,3);
+    console.log(arr2.join(' - ')); 

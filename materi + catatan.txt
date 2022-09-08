@@ -409,3 +409,4 @@ MATERI 35 ----------------------------------------------------------------------
             method  : - length (untuk mengetahui berapa jumlah elemen dalam array)
                       - join   (untuk menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string)
                       - push , pop, shift, unshift (untuk menambah atau menghapus elemen array)
+                      - slice & spice (untuk menyisipkan elemen array di tengah-tengah)
