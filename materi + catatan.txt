@@ -368,7 +368,7 @@ MATERI 32 ----------------------------------------------------------------------
    - semua looping bisa dibuat rekursif, tapi tidak untuk sebaliknya
    -* coba search recursion di google wkwk
 
-MATERI 32 ------------------------------------------------------------------------------------------------------------------------------
+MATERI 33 ------------------------------------------------------------------------------------------------------------------------------
    function decalaration : - function yang normal.
                            - lebih fleksibel (dapat ditulis dimanapun) (bisa di panggil dulu baru dideklarasikan ataupun sebaliknya).
                               - karena konsep Hoisting.
@@ -382,3 +382,24 @@ MATERI 32 ----------------------------------------------------------------------
                               - sebagai closure
                               - sebagai argumen untuk function lain
                               - IIFE (Immediately Invoked Function Expression)
+
+MATERI 34 ------------------------------------------------------------------------------------------------------------------------------
+   array secara umum adalah sususan sistematis dari objek objek yang serupa.
+   array : tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai atau variable), yang tiap-tiap elemennya memiliki index.
+      (array adalah variable yang lebih sakti dikarenakan bisa menampung lebih dari satu nilai).
+   
+         manfaat : - mempermudah pengelolaan nilai / value / data.
+                     - penelusuran  dan pecarian
+                  - manajemen memori.
+
+   karakteristik : - variable jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama.
+                   - kumpulan pasangan key dan nilai / key and value pair.
+                   - key  adalah index pada array dengan tipe integer yang dimulai dari 0.
+                   - array pada javascript bertipe object.
+                   - array pada javascript memiliki fungsi / method length untuk menghitung jumlah elemen didalamnya.
+                   - elemen pada array boleh memiliki tipe data yang berbeda.
+            ex : in js file
+
+
+MATERI 35 ------------------------------------------------------------------------------------------------------------------------------
+   
