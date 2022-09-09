@@ -29,13 +29,13 @@
 // }
 
 // else if ----------------------------------------------------------------
-// if(kondisi 1){                                             // Rumus-----
-//     aksi 1
-// }else if(kondisi 2){
+// if(kondisi){                                                  *Rumus----S
+//     aksi 1 -> lakukan aksi 1 jika kondisi bernilai true
+//  } else if(kondisi 2){ 
 //     aksi 2
-// }else{
-//     aksi 3
-// }
+//  }else {
+//     aksi 3 -> lakukan aksi 3 jika kondisi bernilai false
+//  }
 
 // contoh -----------------------------------------------------------------
 // var angka = prompt('masukkan angka');
