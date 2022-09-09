@@ -95,7 +95,18 @@
 
 // 8.sort \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
     var angka = [1,2,10,5,20,3,6,8,4];
-    angka.sort(function(a,b){
-        return a-b;
+    // angka.sort(function(a,b){
+    //     return a-b;
+    // });
+    // console.log(angka.join('-'));
+
+// 9.filter \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    var angka2 = angka.filter(function(x){
+        return x > 5;                       // kelebihan filter yang menampilkan semua bilangan yang lebih dari 5
     });
-    console.log(angka.join('-'));
+    console.log(angka2.join(','));          // dan menampilkannya lagi dalam bentuk array
+// 10.find \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    var angka2 = angka.find(function(x){
+        return x > 5;                       // hanya menampilkan 1 bilangan yang lebih dari 5
+    });
+    console.log(angka2);                    // dan tidak bisa menampilkan dengan array

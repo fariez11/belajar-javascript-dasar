@@ -401,14 +401,19 @@ MATERI 34 ----------------------------------------------------------------------
             ex : in js file
 
 
-MATERI 35 & 37 -------------------------------------------------------------------------------------------------------------------------
+MATERI 35 & 38 -------------------------------------------------------------------------------------------------------------------------
    manipulasi array : - menambah elemen pada array.
                       - menghapus elemen pada array.
                       - menampilkan seluruh isi array.
 
             method  : - length (untuk mengetahui berapa jumlah elemen dalam array)
-                      - join   (untuk menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string)
+                      - join(untuk menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string)
                       - push , pop, shift, unshift (untuk menambah atau menghapus elemen array)
                       - slice & spice (untuk menyisipkan elemen array di tengah-tengah)
                       - foreach, map (melakukan sesuatu pada elemen elemen yang ada didalam arraynya secara otomatis)
+                           > fungsinya sebenarnya sama hanya saja map lebih baik karena karena bisa mengembalikan array
+                             sedangkan foreach tidak.
                       - sort (untuk mengrutkan angka)
+                      - filter(bisa mengembalikan banyak nilai dan menghasilkan array), find(bisa mengembailkan 1 nilai)
+                      - dll (sumber: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object/Array)
+         
