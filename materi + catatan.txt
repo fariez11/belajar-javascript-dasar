@@ -362,8 +362,8 @@ MATERI 34 ----------------------------------------------------------------------
       (array adalah variable yang lebih sakti dikarenakan bisa menampung lebih dari satu nilai).
    
          manfaat : - mempermudah pengelolaan nilai / value / data.
-                     - penelusuran  dan pecarian
-                  - manajemen memori.
+                   - penelusuran  dan pecarian
+                   - manajemen memori.
 
    karakteristik : - variable jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama.
                    - kumpulan pasangan key dan nilai / key and value pair.
@@ -390,7 +390,7 @@ MATERI 35 & 38 -----------------------------------------------------------------
                       - filter(bisa mengembalikan banyak nilai dan menghasilkan array), find(bisa mengembailkan 1 nilai)
                       - dll (sumber: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Object/Array)
 
-MATERI 39 -------------------------------------------------------------------------------------------------------------------------------
+MATERI 39 - 40 --------------------------------------------------------------------------------------------------------------------------
    pengelolaan penumpang : - penumpang naik
                               > tambah penumpang()
                                  2 parameter :
@@ -406,4 +406,13 @@ MATERI 39 ----------------------------------------------------------------------
                                     - nama penumpang tidak boleh sama, untuk menghindari kebingungan ketika nanti penumpang turun.
 
                            - penumpang turun
-                              > hapus penumpang() 
+                              > hapus penumpang()
+                                 2 parameter :
+                                    - namaPenumpang
+                                    - arrayPenumpang  
+
+                                 Rules :
+                                    - jika agnkot kosong, tampilkan pesan bahwa angkot kosong.
+                                    - jika ada penumpang yang namanya sesuai, hapus nama penumpang pada array dengan nilai memberi nilai
+                                      undefined.
+                                    - jika kita tidak ada penumpang yang namanya sesuai, tampilkan pesan kesalahannya.
