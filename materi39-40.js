@@ -11,7 +11,7 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
     // else
     else {
         // telusuri seluruh kursi dari awal
-        for(var i = 0; i < penumpang.length; i ++){
+        for(var i = 0; i < penumpang.length; i++){
             // jika dad kursi kosong
             if(penumpang[i] == undefined ){
                 // tambah penumpang di kursi tersebu
@@ -50,7 +50,7 @@ var hapusPenumpang = function(namaPenumpang, penumpang){
     // else
     else{
         // telusuri seluruh kursi dari awal 
-        for( i = 0; i < penumpang.length; i ++){
+        for( i = 0; i < penumpang.length; i++){
             // jika nama penumpang sesuai
             if(penumpang[i] == namaPenumpang){
                 // hapus penumpang degan mengubah namanya,menjadi undefined
