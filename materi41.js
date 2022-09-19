@@ -39,3 +39,4 @@
                 provinsi : 'Jawa Barat' 
             }
         };
+        
