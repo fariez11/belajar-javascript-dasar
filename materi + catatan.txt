@@ -416,3 +416,15 @@ MATERI 39 - 40 -----------------------------------------------------------------
                                     - jika ada penumpang yang namanya sesuai, hapus nama penumpang pada array dengan nilai memberi nilai
                                       undefined.
                                     - jika kita tidak ada penumpang yang namanya sesuai, tampilkan pesan kesalahannya.
+
+MATERI 41 ----------------------------------------------------------------------------------------------------------------------------------
+   secara umum object adalah kumpulan nilai, yang memiliki nama.
+               object adalah array,yang lebih sakti.
+   'In javascript, obejct are king. if you understand object, you understand javascript.'
+
+   object pada bahasa pemrograman lain ; 
+      - PHP         : Associative Array
+      - Python      : Dictionaries
+      - C           : Hash Tables
+      - Java        : Hash manipulasi
+      - Ruby & Perl : Hashes   
