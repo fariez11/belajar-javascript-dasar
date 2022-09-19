@@ -417,7 +417,7 @@ MATERI 39 - 40 -----------------------------------------------------------------
                                       undefined.
                                     - jika kita tidak ada penumpang yang namanya sesuai, tampilkan pesan kesalahannya.
 
-MATERI 41 ----------------------------------------------------------------------------------------------------------------------------------
+MATERI 41 - 42 --------------------------------------------------------------------------------------------------------------------------
    secara umum object adalah kumpulan nilai, yang memiliki nama.
                object adalah array,yang lebih sakti.
    'In javascript, obejct are king. if you understand object, you understand javascript.'
@@ -427,4 +427,13 @@ MATERI 41 ----------------------------------------------------------------------
       - Python      : Dictionaries
       - C           : Hash Tables
       - Java        : Hash manipulasi
-      - Ruby & Perl : Hashes   
+      - Ruby & Perl : Hashes
+
+   Membuat Object pada JavaScript
+      - Object Literal (cara yang paling simple)
+      - Function Declaration
+      - Constructor Function (keyword new) -> cara yang akan sering dipake
+      - object.create()
+
+MATERI 43 --------------------------------------------------------------------------------------------------------------------------------
+MATERI 44 --------------------------------------------------------------------------------------------------------------------------------
